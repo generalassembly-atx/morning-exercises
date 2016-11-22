@@ -2,11 +2,15 @@
 
 ## Miscellaneous Ideas
 
+- Blog Post presentations
+- Portfolio Work Day
+- Moronic Monday
+- Homework Review
 
 ## Videos
 
-- [You Should Learn to Program: Christian Genco at TEDxSMU](https://www.youtube.com/watch?v=xfBWk4nw440) This is a good morale booster for Week 7
-- [This is Water Commencement Speech by David Foster Wallace](https://www.youtube.com/watch?v=MZjpihl2pfg) This is a good morale booster for Week 7
+- [You Should Learn to Program: Christian Genco at TEDxSMU](https://www.youtube.com/watch?v=xfBWk4nw440) _This is a good morale booster for Week 7_
+- [This is Water Commencement Speech by David Foster Wallace](https://www.youtube.com/watch?v=MZjpihl2pfg) _This is a good morale booster for Week 7_
 
 
 ## CSS Challenges
@@ -16,7 +20,7 @@
 
 ## Code Challenges
 
-#### Sum of Multiples
+### Sum of Multiples
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. Find the sum of all the multiples of 3 or 5 below 1000.
 
   In JS:
@@ -42,7 +46,7 @@ If we list all the natural numbers below 10 that are multiples of 3 or 5, we get
   end.inject(0) { |sum, i| sum + i }
   ```
 
-#### Largest Prime Factor 
+### Largest Prime Factor 
 The prime factors of 13195 are 5, 7, 13 and 29. What is the largest prime factor of the number 600851475143?
 
   In JS:
@@ -82,10 +86,10 @@ The prime factors of 13195 are 5, 7, 13 and 29. What is the largest prime factor
   factors.last
   ```
 
-#### Largest Palindromic Number
+### Largest Palindromic Number
 A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99. Find the largest palindrome made from the product of two 3-digit numbers.
 
-#### Caesar Cipher
+### Caesar Cipher
 
 Code War [Caesar Cipher](https://www.codewars.com/kata/caesar-cipher-helper/train/javascript) Unit 4
   ```js
