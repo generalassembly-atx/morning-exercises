@@ -2,10 +2,6 @@
 
 ## Miscellaneous Ideas
 
-- Blog Post presentations
-- Portfolio Work Day
-- Moronic Monday
-- Homework Review
 
 ## Videos
 
@@ -20,7 +16,8 @@
 
 ## Code Challenges
 
-- If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. Find the sum of all the multiples of 3 or 5 below 1000.
+#### Sum of Multiples
+If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. Find the sum of all the multiples of 3 or 5 below 1000.
 
   In JS:
   ```js
@@ -45,7 +42,8 @@
   end.inject(0) { |sum, i| sum + i }
   ```
 
-- The prime factors of 13195 are 5, 7, 13 and 29. What is the largest prime factor of the number 600851475143?
+#### Largest Prime Factor 
+The prime factors of 13195 are 5, 7, 13 and 29. What is the largest prime factor of the number 600851475143?
 
   In JS:
   ```js
@@ -84,9 +82,12 @@
   factors.last
   ```
 
-- A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99. Find the largest palindrome made from the product of two 3-digit numbers.
+#### Largest Palindromic Number
+A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99. Find the largest palindrome made from the product of two 3-digit numbers.
 
-- [Caesar Cipher](https://www.codewars.com/kata/caesar-cipher-helper/train/javascript) Unit 4
+#### Caesar Cipher
+
+Code War [Caesar Cipher](https://www.codewars.com/kata/caesar-cipher-helper/train/javascript) Unit 4
   ```js
     // Partial Solution
     var CaesarCipher = function (shift) {
