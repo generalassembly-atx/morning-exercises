@@ -45,6 +45,7 @@ If we list all the natural numbers below 10 that are multiples of 3 or 5, we get
     (i % 3 === 0 || i % 5 === 0) ? i : 0
   end.inject(0) { |sum, i| sum + i }
   ```
+--- 
 
 ### Largest Prime Factor 
 The prime factors of 13195 are 5, 7, 13 and 29. What is the largest prime factor of the number 600851475143?
@@ -85,9 +86,12 @@ The prime factors of 13195 are 5, 7, 13 and 29. What is the largest prime factor
   end
   factors.last
   ```
+---
 
 ### Largest Palindromic Number
 A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99. Find the largest palindrome made from the product of two 3-digit numbers.
+
+---
 
 ### Caesar Cipher
 
@@ -123,4 +127,5 @@ Code War [Caesar Cipher](https://www.codewars.com/kata/caesar-cipher-helper/trai
 
   };
   ```
+ ---
  
