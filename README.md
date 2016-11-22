@@ -104,28 +104,25 @@ _Good for Unit 4_
   In JS:
   ```js
   // = 6857
-  function findPrimeFactors(value){
-  	var factors = [];
-  	for(var i=1; i< (Math.sqrt(value)); i++){
-  		if (value%i===0){
-  			if (isPrime(i)){
-  				factors.push(i);
-  			}
-  		}
-  	}
-  	return factors.pop();
-  }
-
-  function isPrime(value) {
-      for(var i = 2; i < value; i++) {
-          if(value % i === 0) {
-              return false;
-          }
+  function largestPrimeFactor(num) {
+  var result, arr=[];
+  
+  if(isPrime(num)) {
+    result = num;
+  } else {
+    for(var i=2; i<Math.sqrt(num); i++) {
+      if(isPrime(i) && num % i === 0) {
+        arr.push(i);
+        if(isPrime(num/i)) {
+          arr.push(num/i);
+        }
       }
-      return value > 1;
+    }
+    result = Math.max.apply(Math, arr);
   }
-
-  findPrimeFactors(600851475143);
+    
+  return result;  
+}
   ```
 
   In Ruby:
