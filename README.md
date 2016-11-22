@@ -6,6 +6,7 @@
 - Portfolio Work Day
 - Moronic Monday
 - Homework Review
+- UX Lesson from a UXDI Instructor
 
 ## Videos
 
@@ -20,8 +21,55 @@
 
 ## Code Challenges
 
+### Email Code Challenge 
+
+This was a code challenge from a real company. You can't email the recruiter until you solve all the issues to reveal the email address. 
+
+_Good for Unit 4_
+
+http://codepen.io/anon/pen/YwxgvW?editors=001
+
+---
+
+### Merry Christmas - Nested Loops
+
+_Good for Unit 4_
+
+**Part One:** Write a function to turn a string into an array of letters. 
+Example: "Merry Christmas" should become [ 'M', 'e', 'r', 'r', 'y', 'C', 'h', 'r', 'i', 's', 't', 'm', 'a', 's' ]. 
+
+```js
+str = 'Merry Christmas'
+
+function stringToArray(string) {
+	var array = string.split('');
+	return array;
+}
+
+var arr = stringToArray(str);
+console.log(arr);
+```
+
+**Part Two:** Return the first unique letter in the string "Merry Christmas"?
+
+```js
+for (i=0; i < arr.length; i++){
+    for (j=i++; j < arr.length; j++) {
+        if (arr[j] == arr[i]){
+            break;
+        } else {
+            console.log(arr[i]);
+        }
+    }
+}
+```
+
+---
+
 ### Sum of Multiples
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. Find the sum of all the multiples of 3 or 5 below 1000.
+
+_Good for Unit 3 or 4_
 
   In JS:
   ```js
@@ -48,7 +96,10 @@ If we list all the natural numbers below 10 that are multiples of 3 or 5, we get
 --- 
 
 ### Largest Prime Factor 
+
 The prime factors of 13195 are 5, 7, 13 and 29. What is the largest prime factor of the number 600851475143?
+
+_Good for Unit 4_
 
   In JS:
   ```js
@@ -91,11 +142,15 @@ The prime factors of 13195 are 5, 7, 13 and 29. What is the largest prime factor
 ### Largest Palindromic Number
 A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99. Find the largest palindrome made from the product of two 3-digit numbers.
 
----
+_Good for Unit 4_
 
+---
 ### Caesar Cipher
 
-Code War [Caesar Cipher](https://www.codewars.com/kata/caesar-cipher-helper/train/javascript) Unit 4
+Code War [Caesar Cipher](https://www.codewars.com/kata/caesar-cipher-helper/train/javascript)
+
+_Good for Unit 4_
+
   ```js
     // Partial Solution
     var CaesarCipher = function (shift) {
@@ -128,4 +183,5 @@ Code War [Caesar Cipher](https://www.codewars.com/kata/caesar-cipher-helper/trai
   };
   ```
  ---
+
  
