@@ -21,6 +21,10 @@
 
 ## Code Challenges
 
+### FizzBuzz
+
+https://github.com/generalassembly-atx/fizzbuzz
+
 ### Email Code Challenge 
 
 This was a code challenge from a real company. You can't email the recruiter until you solve all the issues to reveal the email address. 
