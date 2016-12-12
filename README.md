@@ -3,6 +3,7 @@
 ## Miscellaneous Ideas
 
 - Blog Post presentations
+ - Blog example 1 - http://nishacodes.tumblr.com/
 - Portfolio Work Day
 - Moronic Monday
 - Homework Review
