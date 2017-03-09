@@ -34,6 +34,18 @@ _Good for Unit 4_
 
 http://codepen.io/anon/pen/YwxgvW?editors=001
 
+### Actual Interview Question 
+
+```js
+//Create a method that takes a positive integer number, and returns the next bigger number formed by the same digits. 
+next_bigger(12) == 21
+next_bigger(513) == 531
+next_bigger(2017) == 2071
+
+// If no bigger number, returns -1.
+next_bigger(9) == -1
+```
+
 ---
 
 ### Merry Christmas - Nested Loops
